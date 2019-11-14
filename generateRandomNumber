@@ -1,1 +1,15 @@
+import random
+
+"r1 = random.randint(0, 10)"
+
+"g = input(""guess a no : "")"
+g = int(g)
+if r1 == g:
+    "print(""ur guess is right"")"
+    elif r1 > g:
+    "print(""ur guess is less than system generated no."")"
+    else:
+    "print(""ur guess is more than system generated no."")"
+
+    "print(""Random number between 0 and 10 is % s"" % r1)"
 
